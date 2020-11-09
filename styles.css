@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://res.cloudinary.com/prin/image/upload/c_scale,w_1977/v1597094796/pexels-element-digital-1470168_t0ka2v.jpg");
+
+}
+
+main {
+  background-color: #313E50;
+  width: 1000px;
+  display: block;
+  box-shadow: 0 0 5px 10px #313E50;
+  margin: 20px 0 0 10px;
+  text-align: center;
+  color: #D3B8A2;
+}
+
+#survey-form  {
+  line-height: 40px;
+}
+
+#number {
+  margin-left: 13px;
+}

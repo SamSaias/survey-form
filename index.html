@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Thoughts about therapy</h1>
+        <p id="description"> Once upon a time therapy was viewed with negativity. People were not supported when they
+            talked about or even had feelings. Now it seems more mainstream and commonly accepted to hear "My therapist
+            says..." or some other phrase formerly considered an overshare. Today we'd like to get your thoughts on
+            traditional and less conventional therapies.</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name: </label>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" required></input><br>
+            <label for="email" id="email-label">Email: </label>
+            <input id="email" type="email" placeholder="Your full email" required></input><br>
+            <label for="number" id="number-label">Age: </label>
+            <input id="number" type="number" name="age" placeholder="Your Age" min="0" max="120"></input><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <p>Have you experienced any of the below symptoms?</p><br>
+            <input type="checkbox" id="depression" name="symptoms" value="depression">
+            <label for="depression">Depression</label>
+            <input type="checkbox" id="suicide" name="symptoms" value="suicide">
+            <label for="suicide">Thoughts of suicide</label>
+            <input type="checkbox" id="anxiety" name="symptoms" value="anxiety">
+            <label for="anxiety">Anxiety</label>
+            <input type="checkbox" id="hysteria" name="symptoms" value="hysteria">
+            <label for="hysteria">Hysteria</label>
+            <input type="checkbox" id="concentrating" name="symptoms" value="concentrating">
+            <label for="concentrating">Trouble Concentrating</label>
+
+            <br><label for="dropdown" id="if-therapy-q">Have you had therapy before?</label><br>
+            <select id="dropdown" name="if-therapy-q">
+                <option value="never">Never</option>
+                <option value="recently">Started Recently</option>
+                <option value="some">Saw a therapist in the past</option>
+                <option value="occasional">I sometimes see a therapist</option>
+                <option value="regular">I keep at least weekly appointments with a therapist</option>
+            </select><br>
+
+            <label for="comment-box">Additional Comments</label><br>
+            <textarea id="comment-box" name="comments" rows="4" cols="50"
+                placeholder="Any Additional Comments"></textarea><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+    </main>
+</body>
+
+
+</html>
